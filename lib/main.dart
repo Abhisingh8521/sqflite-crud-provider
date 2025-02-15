@@ -14,13 +14,10 @@ void main() {
     child:  MyApp(),
   ));
 }
-
-
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp( // Wrap your MaterialApp with GetMaterialApp
+    return GetMaterialApp(
       title: 'Your App Title',
       theme: ThemeData(
         primarySwatch: Colors.blue,

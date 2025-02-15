@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
             context,
             MaterialPageRoute(builder: (context) => AddUserScreen()),
           );
-          // Refresh the user list after adding data
+
           userProvider.notifyListeners();
         },
         child: const Icon(
